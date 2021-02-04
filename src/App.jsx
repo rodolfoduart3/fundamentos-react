@@ -15,11 +15,15 @@ import Contador from "./components/contador/Contador"
 import Mega from "./components/mega/Mega"
 
 import InfoApi from "./apitests/InfoApi"
+import ApiClima from "./apitests/ApiClima"
 
 export default (props) => (
     <div className="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
+            <Card titulo="#13 - API Test (Clima)" color="#8C4646">
+                <ApiClima />
+            </Card>
             <Card titulo="#12 - API Test (Get)" color="#000">
                 <InfoApi />
             </Card>
