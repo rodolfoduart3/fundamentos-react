@@ -14,10 +14,15 @@ import Input from "./components/form/Input"
 import Contador from "./components/contador/Contador"
 import Mega from "./components/mega/Mega"
 
+import InfoApi from "./apitests/InfoApi"
+
 export default (props) => (
     <div className="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
+            <Card titulo="#12 - API Test (Get)" color="#000">
+                <InfoApi />
+            </Card>
             <Card titulo="#11 - Mega" color="#588C73">
                 <Mega qtdeNumero={6} />
             </Card>
