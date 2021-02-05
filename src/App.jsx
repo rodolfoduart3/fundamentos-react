@@ -16,11 +16,19 @@ import Mega from "./components/mega/Mega"
 
 import InfoApi from "./apitests/InfoApi"
 import ApiClima from "./apitests/ApiClima"
+import ApiGithub from "./apitests/ApiGithub"
+import ApiGeo from "./apitests/ApiGeo"
 
 export default (props) => (
     <div className="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
+            <Card titulo="#15 - API Test (Geo)" color="#588C73">
+                <ApiGeo />
+            </Card>
+            <Card titulo="#14 - API Test (Github)" color="#FF432E">
+                <ApiGithub />
+            </Card>
             <Card titulo="#13 - API Test (Clima)" color="#8C4646">
                 <ApiClima />
             </Card>
